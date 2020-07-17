@@ -1,6 +1,4 @@
 def find_even_values(src)
-  
-  even_array = []
   row = 0
   while row < src.count do
     col = 0
