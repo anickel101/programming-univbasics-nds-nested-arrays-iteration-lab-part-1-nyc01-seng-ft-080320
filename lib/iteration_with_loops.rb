@@ -6,7 +6,6 @@ def find_even_values(src)
     col = 0
     while col < src[row].count do
       if src[row][col].even?
-        even_array << src[row][col]
         p src[row][col]
         col +=1
       end 
@@ -14,5 +13,4 @@ def find_even_values(src)
     end 
       row += 1
   end
-  even_array
 end
